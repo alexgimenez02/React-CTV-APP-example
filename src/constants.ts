@@ -1,0 +1,1 @@
+export const defaultPosterPath = 'https://image.tmdb.org/t/p/'
