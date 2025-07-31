@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/React-CTV-APP-example/static/css/main.aa817d26.css",
-    "main.js": "/React-CTV-APP-example/static/js/main.acd0e4a9.js",
+    "main.js": "/React-CTV-APP-example/static/js/main.90044f2f.js",
     "index.html": "/React-CTV-APP-example/index.html",
     "main.aa817d26.css.map": "/React-CTV-APP-example/static/css/main.aa817d26.css.map",
-    "main.acd0e4a9.js.map": "/React-CTV-APP-example/static/js/main.acd0e4a9.js.map"
+    "main.90044f2f.js.map": "/React-CTV-APP-example/static/js/main.90044f2f.js.map"
   },
   "entrypoints": [
     "static/css/main.aa817d26.css",
-    "static/js/main.acd0e4a9.js"
+    "static/js/main.90044f2f.js"
   ]
 }
