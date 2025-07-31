@@ -11,7 +11,6 @@ export default class UserData {
     static localStorage = window.localStorage.getItem('TMDB_DATA')!
     static get(): UserDataValues | null {
         const userData: UserDataValues = JSON.parse(UserData.localStorage)
-        console.log(userData)
         return userData
     }
 

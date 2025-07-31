@@ -14,7 +14,6 @@ const Boot = () => {
         let lastUpdate: Date = new Date()
 
         if(userData !== null) {
-          console.log('a')
           if(userData.lastUpdate) {
             lastUpdate = new Date(userData.lastUpdate)
           }
@@ -23,7 +22,6 @@ const Boot = () => {
             if(movies) {
               UserData.set('lastUpdate', new Date().getTime())
               UserData.set('cachedMovies', movies)
-              console.log(UserData.get())
               setMovies(movies)
             } else {
               return
@@ -32,7 +30,6 @@ const Boot = () => {
             setMovies(userData.cachedMovies)
           }
         } else {
-          console.log('b')
           const movies = await API?.getMovies()
           if(movies) {
             UserData.set('cachedMovies', movies)

@@ -62,7 +62,6 @@ const Hero = () => {
                     const modWatchList = watchList
                     modWatchList.push(currentMovie!)
                     setWatchList(modWatchList)
-                    console.log(watchList)
                     UserData.set('cachedWatchList',watchList)
                     setText('Remove from watchlist')
                 }

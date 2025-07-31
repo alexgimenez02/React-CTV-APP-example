@@ -76,7 +76,6 @@ const VideoPlayer = () => {
             if(focusedLayer === 'ProgressBar') {
                 setFocusedLayer('Buttons')
                 setFocusedIndex(0)
-                console.log('sadasd')
             } 
         })
 
@@ -88,7 +87,6 @@ const VideoPlayer = () => {
         })
 
         const offLeft = KeyConfig.handleLeft(() => {
-            console.log(focusedLayer)
             if(focusedLayer === 'Buttons') {
                 if(focusedIndex > 0) {
                     setFocusedIndex(focusedIndex - 1)
