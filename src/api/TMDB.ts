@@ -1,6 +1,6 @@
 import Api from './api';
 import { Movie, MovieAPI } from './types';
-const bearerToken = '<Your token here>'
+const bearerToken = process.env.BEARER_TOKEN ?? '<Your token here>'
 export default class TMDB extends Api {
     constructor() {
         super('https://api.themoviedb.org/3/', {
