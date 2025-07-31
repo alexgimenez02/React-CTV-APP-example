@@ -13,7 +13,7 @@ jobs:
     - name: Build
       run: |
         npm install
-        npm run-script build
+        npm run build
       env:
         BEARER_TOKEN: ${{ secrets.BEARER_TOKEN }}
 
