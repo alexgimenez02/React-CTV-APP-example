@@ -2,7 +2,7 @@ import { CSSProperties, useContext, useEffect, useState } from "react"
 import { AppContext } from "../App"
 import { defaultPosterPath } from "../constants"
 import KeyConfig from "../utils/keyConfigs"
-import { Router, useNavigate } from "react-router"
+import { useNavigate } from "react-router"
 import UserData from "../utils/userData"
 import Separator from "../components/Separator"
 
@@ -92,6 +92,7 @@ const Hero = () => {
             offDown()
             offEnter()
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [focusedItem, watchList])
 
     useEffect(() => {
@@ -103,6 +104,7 @@ const Hero = () => {
                 setCurrentMovie(lastOpenedMovie)
             }
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return currentMovie ? <div style={{position: 'relative', width: '100%', overflow: 'hidden'}}>

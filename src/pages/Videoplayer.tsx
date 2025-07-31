@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react"
 import ProgressBar from "../components/ProgressBar"
 import KeyConfig from "../utils/keyConfigs"
-import { useLocation, useNavigate } from "react-router"
+import { useNavigate } from "react-router"
 
 
 const formatTime = (seconds: number): string => {

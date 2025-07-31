@@ -54,6 +54,7 @@ const HomePage = () => {
             offUp()
             offDown()
         }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [focusedIndex, movies, focusedRail])
 
     return <div className="home-page" style={{display: 'flex', flexDirection: 'column', width: 'inherit', height: 'inherit'}}>

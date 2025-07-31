@@ -1,4 +1,4 @@
-import { forwardRef, ReactElement, useCallback, useEffect, useRef, useState } from "react"
+import { forwardRef, ReactElement,  useEffect, useRef } from "react"
 import { Movie } from "../api/types"
 import Card from "./Card"
 

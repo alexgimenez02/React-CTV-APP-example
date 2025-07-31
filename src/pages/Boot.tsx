@@ -42,6 +42,7 @@ const Boot = () => {
     }
 
     void fetchMovies()
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
     const boxSize = '800px'
     return <div className="boot-page" style={{width: 'inherit', height: 'inherit', display: 'flex', justifyContent: 'center'}}>
